@@ -1,0 +1,20 @@
+{
+  "name": "lyra",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon --watch src --ext ts,json --exec ts-node src/index.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
