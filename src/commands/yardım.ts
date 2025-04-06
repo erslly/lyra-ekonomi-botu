@@ -74,7 +74,7 @@ export async function execute(interaction: ChatInputCommandInteraction) {
                     name: '🔗 Yararlı Bağlantılar',
                     value: `
 • [Geliştirici](https://erslly.xyz/)
-• [GitHub](https://github.com/)
+• [GitHub](https://github.com/erslly)
 `,
                     inline: false
                 }
